@@ -1,4 +1,4 @@
-import 'package:fitness/Task%2002/app_02.dart';
+import 'home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(fontFamily: 'Poppins'),
       debugShowCheckedModeBanner: false,
       home: const SafeArea(
-        child: App02(),
+        child: Homepage(),
       ),
     );
   }
