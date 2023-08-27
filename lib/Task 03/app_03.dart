@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class App03 extends StatelessWidget {
   const App03({super.key});
@@ -54,10 +53,10 @@ class App03 extends StatelessWidget {
           orwithtext(),
           facebookloginbutton(),
           googleloginbutton(),
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
@@ -129,8 +128,8 @@ class App03 extends StatelessWidget {
       ),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-            backgroundColor: Color(0xff1877F2),
-            fixedSize: Size(312, 48),
+            backgroundColor: const Color(0xff1877F2),
+            fixedSize: const Size(312, 48),
             shape: ContinuousRectangleBorder(
               borderRadius: BorderRadius.circular(20),
             )),
@@ -138,8 +137,8 @@ class App03 extends StatelessWidget {
         child: Row(
           children: [
             Image.asset('assets/app03/icons/Facebook Logo.png'),
-            Padding(
-              padding: const EdgeInsets.only(
+            const Padding(
+              padding: EdgeInsets.only(
                 left: 50,
               ),
               child: Text(
