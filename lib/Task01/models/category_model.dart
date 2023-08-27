@@ -14,28 +14,28 @@ class CategoryModel {
     categories.add(
       CategoryModel(
         name: 'Salad',
-        iconpath: 'assets/icons/plate.svg',
+        iconpath: 'assets/app01/icons/plate.svg',
         boxColor: const Color(0xff92A3FD),
       ),
     );
     categories.add(
       CategoryModel(
         name: 'Cake',
-        iconpath: 'assets/icons/pancakes.svg',
+        iconpath: 'assets/app01/icons/pancakes.svg',
         boxColor: const Color(0xffC588F2),
       ),
     );
     categories.add(
       CategoryModel(
         name: 'Pie',
-        iconpath: 'assets/icons/pie.svg',
+        iconpath: 'assets/app01/icons/pie.svg',
         boxColor: const Color(0xff92A3FD),
       ),
     );
     categories.add(
       CategoryModel(
         name: 'Smoothies',
-        iconpath: 'assets/icons/orange-snacks.svg',
+        iconpath: 'assets/app01/icons/orange-snacks.svg',
         boxColor: const Color(0xff92A3FD),
       ),
     );

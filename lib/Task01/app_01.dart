@@ -1,9 +1,9 @@
-import 'package:fitness/Task01/models/category_model.dart';
-import 'package:fitness/Task01/models/diet_model.dart';
-import 'package:fitness/Task01/models/popularmodel.dart';
+import './models/category_model.dart';
+import './models/diet_model.dart';
+import './models/popularmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:fitness/home.dart';
+import '../home.dart';
 
 class App01 extends StatefulWidget {
   const App01({super.key});
@@ -125,7 +125,7 @@ class _App01State extends State<App01> {
                       GestureDetector(
                         onTap: () {},
                         child: SvgPicture.asset(
-                          'assets/icons/button.svg',
+                          'assets/app01/icons/button.svg',
                           width: 30,
                           height: 30,
                         ),
@@ -318,7 +318,7 @@ class _App01State extends State<App01> {
           contentPadding: const EdgeInsets.all(15),
           prefixIcon: Padding(
             padding: const EdgeInsets.all(12),
-            child: SvgPicture.asset('assets/icons/Search.svg'),
+            child: SvgPicture.asset('assets/app01/icons/Search.svg'),
           ),
           hintText: 'Search Pancake',
           suffixIcon: IntrinsicHeight(
@@ -335,7 +335,7 @@ class _App01State extends State<App01> {
                   ),
                   Padding(
                     padding: const EdgeInsets.all(12),
-                    child: SvgPicture.asset('assets/icons/Filter.svg'),
+                    child: SvgPicture.asset('assets/app01/icons/Filter.svg'),
                   ),
                 ],
               ),
@@ -378,7 +378,7 @@ class _App01State extends State<App01> {
             borderRadius: BorderRadius.circular(10),
             color: const Color.fromARGB(255, 237, 236, 236),
           ),
-          child: SvgPicture.asset('assets/icons/arrowleft.svg'),
+          child: SvgPicture.asset('assets/app01/icons/arrowleft.svg'),
         ),
       ),
       actions: [
@@ -392,7 +392,7 @@ class _App01State extends State<App01> {
               borderRadius: BorderRadius.circular(10),
               color: const Color.fromARGB(255, 240, 233, 233),
             ),
-            child: SvgPicture.asset('assets/icons/dots.svg'),
+            child: SvgPicture.asset('assets/app01/icons/dots.svg'),
           ),
         ),
       ],
